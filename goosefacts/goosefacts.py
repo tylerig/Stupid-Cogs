@@ -13,7 +13,7 @@ class goosefacts:
                 "Geese fly in a “V” formation. If one goose is injured, other geese will stay with it until it dies or can rejoin the flock.",
                 "Geese are sometimes raised like chickens for their meat or eggs.", 
                 "Male geese protect the nest while the female geese sit on the eggs.", 
-                "Life spans of 15to 25 years!", 
+                "Life spans of 15 to 25 years!", 
                 "21.7 inches to 43.3 inches in legnth!",
                 "There are around 30 species of goose in the world.", 
                 "Geese vocalise their messages in ten different ways, depending upon the situation. And in a threatening situation, geese stretch out their necks and make loud honks." ,
