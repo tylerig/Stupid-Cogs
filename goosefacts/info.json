@@ -1,0 +1,10 @@
+{
+    "AUTHOR" : "Tyler",
+    "INSTALL_MSG" : "Welcome to the wild and wonderful world of goose facts!",
+    "NAME" : "goosefacts",
+    "SHORT" : "Use !goosefacts for one, that's all.",
+    "DESCRIPTION" : "Seriously it just sends goose facts when commaded to.",
+    "TAGS" : ["facts", "goose", "geese", "useless"],
+    "REQUIREMENTS" : [],
+    "HIDDEN" : false
+}
