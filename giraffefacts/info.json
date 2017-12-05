@@ -1,0 +1,10 @@
+{
+    "AUTHOR" : "Tyler",
+    "INSTALL_MSG" : "Welcome to the wild and wonderful world of giraffe facts!",
+    "NAME" : "giraffefacts",
+    "SHORT" : "Use !giraffefact for one, that's all.",
+    "DESCRIPTION" : "Seriously it just sends giraffe facts when commaded to.",
+    "TAGS" : ["facts", "giraffe", "geese", "useless"],
+    "REQUIREMENTS" : [],
+    "HIDDEN" : false
+}
