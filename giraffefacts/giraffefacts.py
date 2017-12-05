@@ -23,7 +23,7 @@ class giraffefacts:
                 "Giraffes only need to drink once every few days. Most of their water comes from all the plants they eat.",
                 "A giraffe's spots are like human fingerprints: no two individual giraffes have exactly the same pattern."]
 
-    @commands.command()
+    @commands.command(name="giraffefact", aliases=["giraffefacts", "GIRAFFEFACT", "GIRAFFEFACTS"])
     async def giraffefact(self):
         await self.bot.say(randchoice(self.facts))
 
