@@ -23,7 +23,7 @@ class goosefacts:
                 "Geese are excellent weeders and during the early days of commercial agriculture goose farmers would supplement their income by renting flocks out to cotton farms for a chemical-free weeding solution.",
                 "In Victorian England geese were a regular companion of the chimney sweep. A goose would be sent down the chimney to collect the built up coal, coming out the other end black with soot."]
 
-    @commands.command()
+    @commands.command(name="goosefact", aliases=["goosefacts", "GOOSEFACT", "GOOSEFACTS"])
     async def goosefact(self):
         await self.bot.say(randchoice(self.facts))
 
