@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 from random import choice as randchoice
 
-class girafffefacts:
+class giraffefacts:
 
     def __init__(self, bot):
         self.bot = bot
