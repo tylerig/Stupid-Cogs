@@ -32,25 +32,25 @@ class coinbet:
             await self.bot.say("*flips a coin and... " + result)
 
             if result == "HEADS!*" and choice in self.list_heads:
-                await self.bot.say("You won, " + user.nick + "!")
+                await self.bot.say("You won, " + user.display_name + "!")
                 await self.bot.say("You doubled your bet!")
                 amount = number 
                 bank.deposit_credits(user, amount)
 
             elif result == "HEADS!*" and choice not in self.list_heads:
-                await self.bot.say("Oh no..." + user.nick + ".")
+                await self.bot.say("Oh no..." + user.display_name + ".")
                 await self.bot.say("You lost your bet. ):")
                 amount = number
                 bank.withdraw_credits(user, amount)
 
             elif result == "TAILS!*" and choice in self.list_tails:
-                await self.bot.say("You won, " + user.nick + "!")
+                await self.bot.say("You won, " + user.display_name + "!")
                 await self.bot.say("You doubled your bet!")
                 amount = number 
                 bank.deposit_credits(user, amount)
 
             elif result == "TAILS!*" and choice not in self.list_tails:
-                await self.bot.say("Oh no..." + user.nick + ".")
+                await self.bot.say("Oh no..." + user.display_name + ".")
                 await self.bot.say("You lost your bet. ):")
                 amount = number
                 bank.withdraw_credits(user, amount)
