@@ -1,0 +1,10 @@
+{
+    "AUTHOR" : "Tyler",
+    "INSTALL_MSG" : "A install message that appears as soon as the end user does !cog install repo cogname",
+    "NAME" : "coinbet",
+    "SHORT" : "Users can bet if a coin is going to be heads or tails.",
+    "DESCRIPTION" : "Users can bet on a coin if it is going to be heads or tails with !bet [amount] [guess], winning doubles your wagered money and losing makes you lose it. It is on a 60 second cooldown.",
+    "TAGS" : ["coin", "flip", "gamble", "economy", "fun", "bet"],
+    "REQUIREMENTS" : [],
+    "HIDDEN" : false
+}
